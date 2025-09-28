@@ -1,0 +1,104 @@
+
+Gurobi 12.0.1 (win64) logging started Sat Sep 20 05:55:47 2025
+
+Set parameter LogFile to value "log_group_6/bound_Expr75_s3_l1051_s11_e12_o10_d20_t7200_s5_1_1_1_1.log"
+Gurobi Optimizer version 12.0.1 build v12.0.1rc0 (win64 - Windows Server 2022.0 (20348.2))
+
+CPU model: Intel(R) Xeon(R) Gold 6336Y CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 48 physical cores, 96 logical processors, using up to 32 threads
+
+Non-default parameters:
+TimeLimit  7200
+
+Optimize a model with 18999 rows, 18180 columns and 244064 nonzeros
+Model fingerprint: 0xf46bb2c3
+Variable types: 180 continuous, 18000 integer (18000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 9e+02]
+Presolve removed 18549 rows and 17875 columns
+Presolve time: 0.22s
+Presolved: 450 rows, 305 columns, 4129 nonzeros
+Variable types: 55 continuous, 250 integer (250 binary)
+Found heuristic solution: objective 214.6113000
+Found heuristic solution: objective 213.7412000
+Found heuristic solution: objective 73.3103000
+
+Root relaxation: objective 5.167650e+01, 167 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   51.67650    0    6   73.31030   51.67650  29.5%     -    0s
+H    0     0                      53.6372000   51.67650  3.66%     -    0s
+     0     0   51.67650    0   10   53.63720   51.67650  3.66%     -    0s
+H    0     1                      51.8064000   51.67650  0.25%     -    0s
+
+Cutting planes:
+  Cover: 2
+  MIR: 1
+  Relax-and-lift: 1
+
+Explored 1 nodes (365 simplex iterations) in 0.33 seconds (0.30 work units)
+Thread count was 32 (of 96 available processors)
+
+Solution count 5: 51.8064 53.6372 73.3103 ... 214.611
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.180640000000e+01, best bound 5.180640000000e+01, gap 0.0000%
+
+User-callback calls 1250, time in user-callback 0.00 sec
+
+Gurobi 12.0.1 (win64) logging started Sat Sep 20 08:06:05 2025
+
+Set parameter LogFile to value "log_group_6/bound_Expr75_s3_l1051_s11_e12_o10_d20_t7200_s5_1_1_1_1.log"
+Gurobi Optimizer version 12.0.1 build v12.0.1rc0 (win64 - Windows Server 2022.0 (20348.2))
+
+CPU model: Intel(R) Xeon(R) Gold 6336Y CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 48 physical cores, 96 logical processors, using up to 32 threads
+
+Non-default parameters:
+TimeLimit  7200
+
+Optimize a model with 18999 rows, 18180 columns and 244064 nonzeros
+Model fingerprint: 0xf46bb2c3
+Variable types: 180 continuous, 18000 integer (18000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 9e+02]
+Presolve removed 18549 rows and 17875 columns
+Presolve time: 0.15s
+Presolved: 450 rows, 305 columns, 4129 nonzeros
+Variable types: 55 continuous, 250 integer (250 binary)
+Found heuristic solution: objective 214.6113000
+Found heuristic solution: objective 213.7412000
+Found heuristic solution: objective 73.3103000
+
+Root relaxation: objective 5.167650e+01, 167 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   51.67650    0    6   73.31030   51.67650  29.5%     -    0s
+H    0     0                      53.6372000   51.67650  3.66%     -    0s
+     0     0   51.67650    0   10   53.63720   51.67650  3.66%     -    0s
+H    0     1                      51.8064000   51.67650  0.25%     -    0s
+
+Cutting planes:
+  Cover: 2
+  MIR: 1
+  Relax-and-lift: 1
+
+Explored 1 nodes (365 simplex iterations) in 0.26 seconds (0.30 work units)
+Thread count was 32 (of 96 available processors)
+
+Solution count 5: 51.8064 53.6372 73.3103 ... 214.611
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.180640000000e+01, best bound 5.180640000000e+01, gap 0.0000%
+
+User-callback calls 1248, time in user-callback 0.00 sec

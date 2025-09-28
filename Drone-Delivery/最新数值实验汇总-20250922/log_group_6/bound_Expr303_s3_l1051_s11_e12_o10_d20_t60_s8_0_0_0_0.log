@@ -1,0 +1,80 @@
+
+Gurobi 10.0.1 (win64) logging started Sun Sep 21 15:44:49 2025
+
+Set parameter LogFile to value "log_group_6/bound_Expr303_s3_l1051_s11_e12_o10_d20_t60_s8_0_0_0_0.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 21487 rows, 21180 columns and 170014 nonzeros
+Model fingerprint: 0xa97977a5
+Variable types: 180 continuous, 21000 integer (21000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+02]
+Presolve removed 19077 rows and 19067 columns
+Presolve time: 0.19s
+Presolved: 2410 rows, 2113 columns, 17246 nonzeros
+Variable types: 160 continuous, 1953 integer (1950 binary)
+Found heuristic solution: objective 750.3021667
+
+Root relaxation: objective 0.000000e+00, 306 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   20  750.30217    0.00000   100%     -    0s
+H    0     0                      64.9169667    0.00000   100%     -    0s
+     0     0    0.00000    0   25   64.91697    0.00000   100%     -    0s
+     0     0    0.00000    0   20   64.91697    0.00000   100%     -    0s
+H    0     0                      64.5398000    0.00000   100%     -    0s
+     0     0    0.00000    0   21   64.53980    0.00000   100%     -    0s
+     0     0   12.16507    0   16   64.53980   12.16507  81.2%     -    0s
+H    0     0                      64.0672000   12.16507  81.0%     -    0s
+     0     0   12.16507    0   16   64.06720   12.16507  81.0%     -    0s
+H    0     0                      63.7746000   12.16507  80.9%     -    0s
+     0     0   12.16507    0   16   63.77460   12.16507  80.9%     -    0s
+     0     0   12.16507    0   16   63.77460   12.16507  80.9%     -    0s
+H    0     0                      63.6934000   12.16507  80.9%     -    1s
+H    0     0                      63.6528000   12.16507  80.9%     -    1s
+     0     0   12.16507    0   16   63.65280   12.16507  80.9%     -    1s
+     0     0   12.16507    0   16   63.65280   12.16507  80.9%     -    1s
+     0     0   12.16507    0   16   63.65280   12.16507  80.9%     -    1s
+     0     0   12.16507    0   16   63.65280   12.16507  80.9%     -    1s
+     0     0   12.16507    0   16   63.65280   12.16507  80.9%     -    1s
+     0     2   12.16507    0   16   63.65280   12.16507  80.9%     -    1s
+  8661  5880   31.96390  255   10   63.65280   16.51190  74.1%   6.0    5s
+ 48148 37709   30.20965  178   10   63.65280   17.45900  72.6%   4.5   10s
+ 100998 80632   28.61936  203   15   63.65280   17.46928  72.6%   4.3   15s
+H137877 108022                      63.6528000   17.59167  72.4%   4.2   19s
+ 145717 115366   24.25970  131   12   63.65280   17.59167  72.4%   4.2   20s
+ 195110 156682   51.77680  208    4   63.65280   17.59167  72.4%   4.1   25s
+ 242558 195950   26.31613  163   15   63.65280   17.60194  72.3%   4.1   30s
+ 287776 231042   43.42435  185   10   63.65280   17.64300  72.3%   4.2   35s
+ 332846 263932   56.01717  121    4   63.65280   17.83617  72.0%   4.2   40s
+H332847 263932                      63.6527999   17.83617  72.0%   4.2   40s
+ 380380 302543   44.80741   82   14   63.65280   17.83617  72.0%   4.2   45s
+ 430713 341651   18.04753   35   14   63.65280   18.04753  71.6%   4.2   50s
+ 475109 377292   33.33702  106   12   63.65280   18.83310  70.4%   4.3   55s
+ 521142 412311   33.69222  146   10   63.65280   19.65570  69.1%   4.2   60s
+
+Cutting planes:
+  Gomory: 2
+  Implied bound: 39
+  Projected implied bound: 17
+  MIR: 7
+  Flow cover: 80
+  Relax-and-lift: 142
+
+Explored 521479 nodes (2215971 simplex iterations) in 60.03 seconds (64.33 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 8: 63.6528 63.6528 63.6528 ... 750.302
+
+Time limit reached
+Best objective 6.365279989921e+01, best bound 1.965569999999e+01, gap 69.1204%
+
+User-callback calls 1049448, time in user-callback 1.29 sec

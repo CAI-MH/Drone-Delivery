@@ -1,0 +1,52 @@
+
+Gurobi 10.0.1 (win64) logging started Sun Sep 21 16:26:20 2025
+
+Set parameter LogFile to value "log_group_6/bound_Expr374_s3_l1051_s11_e12_o10_d20_t60_s9_1_1_1_1.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 32767 rows, 31680 columns and 423704 nonzeros
+Model fingerprint: 0x45dcffb7
+Variable types: 180 continuous, 31500 integer (31500 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+02]
+Presolve removed 32263 rows and 31322 columns
+Presolve time: 0.20s
+Presolved: 504 rows, 358 columns, 3742 nonzeros
+Variable types: 56 continuous, 302 integer (301 binary)
+Found heuristic solution: objective 281.5959000
+
+Root relaxation: objective 5.151363e+01, 203 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   51.51363    0   37  281.59590   51.51363  81.7%     -    0s
+H    0     0                     118.4477000   51.51363  56.5%     -    0s
+H    0     0                      66.8123000   51.51363  22.9%     -    0s
+H    0     0                      64.9923000   51.51363  20.7%     -    0s
+     0     0   51.59905    0   58   64.99230   51.59905  20.6%     -    0s
+     0     0   52.16766    0   54   64.99230   52.16766  19.7%     -    0s
+     0     0   53.06057    0   46   64.99230   53.06057  18.4%     -    0s
+
+Cutting planes:
+  Learned: 3
+  Gomory: 1
+  Implied bound: 3
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (674 simplex iterations) in 0.29 seconds (0.57 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 4: 64.9923 66.8123 118.448 281.596 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.499229999997e+01, best bound 6.499229999997e+01, gap 0.0000%
+
+User-callback calls 1263, time in user-callback 0.00 sec

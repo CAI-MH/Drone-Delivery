@@ -1,0 +1,69 @@
+
+Gurobi 10.0.1 (win64) logging started Sun Sep 21 17:45:48 2025
+
+Set parameter LogFile to value "log_group_6/bound_Expr435_s10_l1051_s11_e12_o100_d200_t60_s70_1_1_1_1.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 4489521 rows, 4400800 columns and 52853780 nonzeros
+Model fingerprint: 0xb95347d1
+Variable types: 800 continuous, 4400000 integer (4400000 binary)
+Coefficient statistics:
+  Matrix range     [6e-01, 8e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+02]
+Presolve removed 100 rows and 100 columns (presolve time = 5s) ...
+Presolve removed 100 rows and 100 columns (presolve time = 10s) ...
+Presolve removed 100 rows and 4345100 columns (presolve time = 15s) ...
+Presolve removed 4439041 rows and 4351800 columns (presolve time = 20s) ...
+Presolve removed 4439041 rows and 4351300 columns
+Presolve time: 24.12s
+Presolved: 50480 rows, 49500 columns, 293850 nonzeros
+Variable types: 600 continuous, 48900 integer (48900 binary)
+Found heuristic solution: objective 16572.036067
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing first log only...
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -6.9105000e+04   1.853972e+04   5.887698e+08     32s
+   17478    7.4895000e+04   0.000000e+00   9.920000e+02     35s
+   17842    3.2495890e+02   0.000000e+00   0.000000e+00     35s
+Concurrent spin time: 0.18s
+
+Solved with primal simplex
+   17842    3.2495890e+02   0.000000e+00   0.000000e+00     35s
+
+Root relaxation: objective 3.249589e+02, 17842 iterations, 3.41 seconds (9.69 work units)
+Total elapsed time = 42.79s
+Total elapsed time = 45.75s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  324.95890    0  318 16572.0361  324.95890  98.0%     -   46s
+H    0     0                    16200.892567  324.95890  98.0%     -   48s
+     0     0  324.95890    0  423 16200.8926  324.95890  98.0%     -   58s
+H    0     0                    16069.605200  324.95890  98.0%     -   60s
+
+Cutting planes:
+  Gomory: 1
+  Implied bound: 66
+  MIR: 24
+  RLT: 30
+  Relax-and-lift: 233
+
+Explored 1 nodes (58087 simplex iterations) in 60.55 seconds (116.14 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 16069.6 16572 
+
+Time limit reached
+Best objective 1.606960519999e+04, best bound 3.249589000000e+02, gap 97.9778%
+
+User-callback calls 6438, time in user-callback 0.03 sec
